@@ -1,0 +1,6 @@
+{
+  "name": "OnePlace - La Romana, Dominican Republic",
+  "description": "Premium all-in-one mobile app for destination discovery, Caribbean catamaran tours, Casa de Campo luxury resorts, Altos de Chavón, artisan cigars, and real estate in La Romana, Dominican Republic.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
