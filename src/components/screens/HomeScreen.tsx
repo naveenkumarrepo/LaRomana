@@ -361,44 +361,61 @@ export const HomeScreen: React.FC = () => {
         </div>
       </div>
 
-      {/* 3 Pillar Sector Switcher (Segmented Control - Tourism Primary) */}
+      {/* 3 Pillar Sector Switcher (Segmented Control - Colourful & Vibrant UI) */}
       <div className="px-4">
-        <div className="p-1 rounded-2xl bg-white border border-slate-200/90 shadow-2xs flex items-center gap-1 text-xs">
+        <div className="p-1.5 rounded-2xl bg-gradient-to-r from-teal-50 via-amber-50 to-rose-50 border border-slate-200 shadow-sm flex items-center gap-1.5 text-xs relative overflow-hidden">
           <button
             type="button"
             onClick={() => setActiveDomain('tourism')}
-            className={`flex-1 py-2.5 px-3 rounded-xl font-bold transition-all flex items-center justify-center gap-1.5 cursor-pointer ${
+            className={`flex-1 py-2.5 px-3 rounded-xl font-extrabold transition-all duration-300 flex items-center justify-center gap-2 cursor-pointer active:scale-95 ${
               activeDomain === 'tourism'
-                ? 'bg-gradient-to-r from-teal-600 to-emerald-600 text-white shadow-md shadow-teal-600/20 scale-[1.02]'
-                : 'text-slate-600 hover:text-teal-600 hover:bg-slate-50'
+                ? 'bg-gradient-to-r from-teal-500 via-emerald-500 to-teal-600 text-white shadow-md shadow-teal-500/30 scale-[1.02]'
+                : 'text-teal-900 hover:bg-teal-100/60'
             }`}
           >
-            <Palmtree className="w-4 h-4" />
-            <span>Tourism</span>
+            <div className={`p-1 rounded-lg transition-colors ${activeDomain === 'tourism' ? 'bg-white/20' : 'bg-teal-500/10 text-teal-700'}`}>
+              <Palmtree className="w-3.5 h-3.5" />
+            </div>
+            <span className="tracking-tight text-xs">Tourism</span>
+            {activeDomain === 'tourism' && (
+              <span className="w-1.5 h-1.5 rounded-full bg-teal-200 animate-pulse" />
+            )}
           </button>
+
           <button
             type="button"
             onClick={() => setActiveDomain('realtors')}
-            className={`flex-1 py-2.5 px-3 rounded-xl font-bold transition-all flex items-center justify-center gap-1.5 cursor-pointer ${
+            className={`flex-1 py-2.5 px-3 rounded-xl font-extrabold transition-all duration-300 flex items-center justify-center gap-2 cursor-pointer active:scale-95 ${
               activeDomain === 'realtors'
-                ? 'bg-gradient-to-r from-amber-500 to-orange-600 text-white shadow-md shadow-amber-600/20 scale-[1.02]'
-                : 'text-slate-600 hover:text-amber-600 hover:bg-slate-50'
+                ? 'bg-gradient-to-r from-amber-500 via-amber-400 to-orange-500 text-slate-950 shadow-md shadow-amber-500/30 scale-[1.02]'
+                : 'text-amber-950 hover:bg-amber-100/60'
             }`}
           >
-            <Key className="w-4 h-4" />
-            <span>Realtors</span>
+            <div className={`p-1 rounded-lg transition-colors ${activeDomain === 'realtors' ? 'bg-slate-950/20' : 'bg-amber-500/10 text-amber-700'}`}>
+              <Key className="w-3.5 h-3.5" />
+            </div>
+            <span className="tracking-tight text-xs">Realtors</span>
+            {activeDomain === 'realtors' && (
+              <span className="w-1.5 h-1.5 rounded-full bg-amber-200 animate-pulse" />
+            )}
           </button>
+
           <button
             type="button"
             onClick={() => setActiveDomain('artisans')}
-            className={`flex-1 py-2.5 px-3 rounded-xl font-bold transition-all flex items-center justify-center gap-1.5 cursor-pointer ${
+            className={`flex-1 py-2.5 px-3 rounded-xl font-extrabold transition-all duration-300 flex items-center justify-center gap-2 cursor-pointer active:scale-95 ${
               activeDomain === 'artisans'
-                ? 'bg-gradient-to-r from-rose-500 to-pink-600 text-white shadow-md shadow-rose-600/20 scale-[1.02]'
-                : 'text-slate-600 hover:text-rose-600 hover:bg-slate-50'
+                ? 'bg-gradient-to-r from-rose-500 via-pink-500 to-rose-600 text-white shadow-md shadow-rose-500/30 scale-[1.02]'
+                : 'text-rose-950 hover:bg-rose-100/60'
             }`}
           >
-            <ShoppingBag className="w-4 h-4" />
-            <span>Artisans</span>
+            <div className={`p-1 rounded-lg transition-colors ${activeDomain === 'artisans' ? 'bg-white/20' : 'bg-rose-500/10 text-rose-700'}`}>
+              <ShoppingBag className="w-3.5 h-3.5" />
+            </div>
+            <span className="tracking-tight text-xs">Artisans</span>
+            {activeDomain === 'artisans' && (
+              <span className="w-1.5 h-1.5 rounded-full bg-pink-200 animate-pulse" />
+            )}
           </button>
         </div>
       </div>
