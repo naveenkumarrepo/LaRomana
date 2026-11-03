@@ -26,7 +26,7 @@ export const SAMPLE_PLACES: Place[] = [
     openingHours: 'Excursions depart 08:00 AM – 06:00 PM Daily',
     entryFee: 'National Park Permit $10 USD (Included in tours)',
     images: [
-      '/src/assets/images/hero_isla_saona_caribbean_1793268342016.jpg',
+      '/assets/images/hero_isla_saona_caribbean_1793268342016.jpg',
       'https://images.unsplash.com/photo-1544551763-46a013bb70d5?auto=format&fit=crop&w=1000&q=80',
       'https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1000&q=80'
     ],
@@ -47,7 +47,7 @@ export const SAMPLE_PLACES: Place[] = [
     openingHours: '08:00 AM – 09:00 PM Daily',
     entryFee: '$25 USD for non-residents (Free for resort guests)',
     images: [
-      '/src/assets/images/altos_de_chavon_village_1793268343997.jpg',
+      '/assets/images/altos_de_chavon_village_1793268343997.jpg',
       'https://images.unsplash.com/photo-1512917774080-9991f1c4c750?auto=format&fit=crop&w=1000&q=80',
       'https://images.unsplash.com/photo-1590050752117-238cb0fb12b1?auto=format&fit=crop&w=1000&q=80'
     ],
@@ -69,7 +69,7 @@ export const SAMPLE_PLACES: Place[] = [
     entryFee: '$10 USD per adult / $5 USD children',
     images: [
       'https://images.unsplash.com/photo-1518709268805-4e9042af9f23?auto=format&fit=crop&w=1000&q=80',
-      '/src/assets/images/altos_de_chavon_village_1793268343997.jpg'
+      '/assets/images/altos_de_chavon_village_1793268343997.jpg'
     ],
     category: 'Spiritual',
     coords: { x: 25, y: 35 },
@@ -88,7 +88,7 @@ export const SAMPLE_PLACES: Place[] = [
     openingHours: 'Catamaran excursions depart 08:30 AM – 05:00 PM',
     entryFee: '$120 USD (Full-day diving & snorkeling charter)',
     images: [
-      '/src/assets/images/hero_isla_saona_caribbean_1793268342016.jpg',
+      '/assets/images/hero_isla_saona_caribbean_1793268342016.jpg',
       'https://images.unsplash.com/photo-1544551763-46a013bb70d5?auto=format&fit=crop&w=1000&q=80'
     ],
     category: 'Adventure',
@@ -108,7 +108,7 @@ export const SAMPLE_PACKAGES: TourPackage[] = [
     reviewCount: 840,
     description: 'Cruise the sapphire Caribbean Sea aboard a luxury sailing catamaran to Isla Saona. Swim in the turquoise natural pools with giant starfish, enjoy an open bar with aged Dominican rum, and savor freshly grilled lobster on private Canto de la Playa sands.',
     images: [
-      '/src/assets/images/hero_isla_saona_caribbean_1793268342016.jpg',
+      '/assets/images/hero_isla_saona_caribbean_1793268342016.jpg',
       'https://images.unsplash.com/photo-1544551763-46a013bb70d5?auto=format&fit=crop&w=1000&q=80',
       'https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1000&q=80'
     ],
@@ -146,7 +146,7 @@ export const SAMPLE_PACKAGES: TourPackage[] = [
     reviewCount: 520,
     description: 'Immerse yourself in Mediterranean stone architecture, artisanal pottery workshops, and St. Stanislaus Church at Altos de Chavón, followed by an authentic riverboat cruise along the lush tropical canyon where Apocalypse Now was filmed.',
     images: [
-      '/src/assets/images/altos_de_chavon_village_1793268343997.jpg',
+      '/assets/images/altos_de_chavon_village_1793268343997.jpg',
       'https://images.unsplash.com/photo-1512917774080-9991f1c4c750?auto=format&fit=crop&w=1000&q=80'
     ],
     itinerary: [
@@ -177,7 +177,7 @@ export const SAMPLE_PACKAGES: TourPackage[] = [
     reviewCount: 460,
     description: 'Experience the Caribbean’s most celebrated underwater drop-off. Snorkel or scuba dive "The Wall" with sea turtles, stingrays, and yellowtail snappers, followed by Caribbean barbecue at Isla Catalina VIP beach.',
     images: [
-      '/src/assets/images/hero_isla_saona_caribbean_1793268342016.jpg',
+      '/assets/images/hero_isla_saona_caribbean_1793268342016.jpg',
       'https://images.unsplash.com/photo-1544551763-46a013bb70d5?auto=format&fit=crop&w=1000&q=80'
     ],
     itinerary: [
@@ -284,8 +284,8 @@ export const SAMPLE_HOTELS: Hotel[] = [
     reviewCount: 1140,
     description: 'The Dominican Republic’s premier 7,000-acre luxury destination. Boasts Pete Dye’s legendary Teeth of the Dog golf course, private white-sand Minitas Beach Club, international equestrian polo fields, world-class marina, and Altos de Chavón artisan village.',
     images: [
-      '/src/assets/images/casa_de_campo_villa_caribbean_1793268344505.jpg',
-      '/src/assets/images/altos_de_chavon_village_1793268343997.jpg',
+      '/assets/images/casa_de_campo_villa_caribbean_1793268344505.jpg',
+      '/assets/images/altos_de_chavon_village_1793268343997.jpg',
       'https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?auto=format&fit=crop&w=1000&q=80'
     ],
     amenities: ['Pete Dye Teeth of the Dog Golf', 'Private Minitas Beach Club', 'Equestrian Center & Polo', 'Full-Service Yacht Marina', 'Chavón Spa & Wellness Sanctuary', 'Personal 4-Passenger Touring Cart'],
@@ -302,7 +302,7 @@ export const SAMPLE_HOTELS: Hotel[] = [
     reviewCount: 780,
     description: 'An Italian-inspired beachfront luxury resort situated right on the blue-flag waters of Dominicus Beach. Features 4 pristine swimming pools, Dreams Spa by Pevonia, gourmet à la carte dining without reservations, and sunset catamaran charters.',
     images: [
-      '/src/assets/images/hero_isla_saona_caribbean_1793268342016.jpg',
+      '/assets/images/hero_isla_saona_caribbean_1793268342016.jpg',
       'https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?auto=format&fit=crop&w=1000&q=80'
     ],
     amenities: ['Blue Flag White Sand Beach', '4 Infinity & Lagoon Pools', 'Pevonia Luxury Spa', '8 Gourmet Dining Venues', 'Catamaran & Kayak Center'],
@@ -338,7 +338,7 @@ export const SAMPLE_RESTAURANTS: Restaurant[] = [
     rating: 4.91,
     reviewCount: 1420,
     images: [
-      '/src/assets/images/casa_de_campo_villa_caribbean_1793268344505.jpg',
+      '/assets/images/casa_de_campo_villa_caribbean_1793268344505.jpg',
       'https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=1000&q=80'
     ],
     address: 'Paseo del Mar, Marina Casa de Campo, La Romana 22000',
@@ -355,7 +355,7 @@ export const SAMPLE_RESTAURANTS: Restaurant[] = [
     rating: 4.86,
     reviewCount: 980,
     images: [
-      '/src/assets/images/hero_isla_saona_caribbean_1793268342016.jpg',
+      '/assets/images/hero_isla_saona_caribbean_1793268342016.jpg',
       'https://images.unsplash.com/photo-1555396273-367ea4eb4db5?auto=format&fit=crop&w=1000&q=80'
     ],
     address: 'Calle La Bahía, Bayahíbe, La Romana 23000',
@@ -372,7 +372,7 @@ export const SAMPLE_RESTAURANTS: Restaurant[] = [
     rating: 4.82,
     reviewCount: 820,
     images: [
-      '/src/assets/images/altos_de_chavon_village_1793268343997.jpg'
+      '/assets/images/altos_de_chavon_village_1793268343997.jpg'
     ],
     address: 'Calle Castillo Márquez, La Romana 22000',
     coords: { x: 36, y: 40 },
@@ -442,7 +442,7 @@ export const SAMPLE_PROPERTIES: RealEstateProperty[] = [
     localityHint: 'Suggested property in nearby locality · Barranca Este',
     estimatedEmi: 'EMI: $3,254/Month',
     images: [
-      '/src/assets/images/casa_de_campo_villa_caribbean_1793268344505.jpg',
+      '/assets/images/casa_de_campo_villa_caribbean_1793268344505.jpg',
       'https://images.unsplash.com/photo-1613977257363-707ba9348227?auto=format&fit=crop&w=1000&q=80',
       'https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1000&q=80',
       'https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?auto=format&fit=crop&w=1000&q=80'
@@ -476,7 +476,7 @@ export const SAMPLE_PROPERTIES: RealEstateProperty[] = [
     localityHint: 'Suggested property in nearby locality · Metro Corridor',
     estimatedEmi: 'EMI: $2,410/Month',
     images: [
-      '/src/assets/images/altos_de_chavon_village_1793268343997.jpg',
+      '/assets/images/altos_de_chavon_village_1793268343997.jpg',
       'https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?auto=format&fit=crop&w=1000&q=80',
       'https://images.unsplash.com/photo-1512917774080-9991f1c4c750?auto=format&fit=crop&w=1000&q=80'
     ],
@@ -509,7 +509,7 @@ export const SAMPLE_PROPERTIES: RealEstateProperty[] = [
     localityHint: 'Suggested property in nearby locality · Bayahíbe Port',
     estimatedEmi: 'EMI: $1,680/Month',
     images: [
-      '/src/assets/images/hero_isla_saona_caribbean_1793268342016.jpg',
+      '/assets/images/hero_isla_saona_caribbean_1793268342016.jpg',
       'https://images.unsplash.com/photo-1512917774080-9991f1c4c750?auto=format&fit=crop&w=1000&q=80',
       'https://images.unsplash.com/photo-1613977257363-707ba9348227?auto=format&fit=crop&w=1000&q=80'
     ],
@@ -543,7 +543,7 @@ export const SAMPLE_PROPERTIES: RealEstateProperty[] = [
     estimatedEmi: 'EMI: $6,120/Month',
     images: [
       'https://images.unsplash.com/photo-1500382017468-9049fed747ef?auto=format&fit=crop&w=1000&q=80',
-      '/src/assets/images/casa_de_campo_villa_caribbean_1793268344505.jpg'
+      '/assets/images/casa_de_campo_villa_caribbean_1793268344505.jpg'
     ],
     description: 'A prized elevated building site in Casa de Campo offering unobstructed vistas where the turquoise Caribbean meets Río Chavón gorge. Prime location for a custom private luxury estate.',
     mediator: {
@@ -567,7 +567,7 @@ export const SAMPLE_PRODUCTS: Product[] = [
     rating: 4.98,
     reviewCount: 380,
     images: [
-      '/src/assets/images/dominican_larimar_cigar_craft_1793268344267.jpg',
+      '/assets/images/dominican_larimar_cigar_craft_1793268344267.jpg',
       'https://images.unsplash.com/photo-1606760227091-3dd870d97f1d?auto=format&fit=crop&w=800&q=80'
     ],
     description: 'Larimar is found in only one place on Earth: the mountains of the Dominican Republic. This AAA-grade volcanic pectolite stone displays vivid sky-blue and Caribbean turquoise ocean swirls, set by hand in solid 925 sterling silver filigree with a 20-inch box chain.',
@@ -585,7 +585,7 @@ export const SAMPLE_PRODUCTS: Product[] = [
     rating: 4.95,
     reviewCount: 520,
     images: [
-      '/src/assets/images/dominican_larimar_cigar_craft_1793268344267.jpg',
+      '/assets/images/dominican_larimar_cigar_craft_1793268344267.jpg',
       'https://images.unsplash.com/photo-1576092768241-dec231879fc3?auto=format&fit=crop&w=800&q=80'
     ],
     description: 'La Romana is home to the world’s most prestigious cigar ateliers. Rolled by master tabaqueros using aged Dominican Piloto Cubano long-fillers wrapped in a silky Connecticut shade wrapper. Notes of cedar, roasted coffee, and creamy vanilla.',
@@ -603,7 +603,7 @@ export const SAMPLE_PRODUCTS: Product[] = [
     rating: 4.92,
     reviewCount: 440,
     images: [
-      '/src/assets/images/dominican_larimar_cigar_craft_1793268344267.jpg',
+      '/assets/images/dominican_larimar_cigar_craft_1793268344267.jpg',
       'https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?auto=format&fit=crop&w=800&q=80'
     ],
     description: 'Aged up to 10 years in heavy-charred ex-bourbon white oak barrels and filtered through authentic Dominican onyx stones. Delivers rich mahogany color with aromas of toasted oak, dried cherries, tobacco leaves, and bitter cocoa.',
@@ -621,7 +621,7 @@ export const SAMPLE_PRODUCTS: Product[] = [
     rating: 4.9,
     reviewCount: 290,
     images: [
-      '/src/assets/images/dominican_larimar_cigar_craft_1793268344267.jpg'
+      '/assets/images/dominican_larimar_cigar_craft_1793268344267.jpg'
     ],
     description: 'Organic single-origin 70% dark chocolate bars crafted from ancestral Dominican Criollo cacao beans, roasted with sea salt from Cabo Rojo and pure vanilla bean.',
     variants: ['4-Bar Tasting Flight', 'Artisan Cacao Butter & Truffle Box'],
@@ -679,7 +679,7 @@ export const INITIAL_BOOKINGS: Booking[] = [
     packageId: 'pkg-1',
     packageName: 'Saona Island VIP Catamaran, Lobster Lunch & Starfish Lagoon',
     destination: 'Bayahíbe & Isla Saona, La Romana',
-    image: '/src/assets/images/hero_isla_saona_caribbean_1793268342016.jpg',
+    image: '/assets/images/hero_isla_saona_caribbean_1793268342016.jpg',
     travelDate: '2026-11-20',
     guestsCount: 2,
     totalAmount: 270,
@@ -697,7 +697,7 @@ export const INITIAL_BOOKINGS: Booking[] = [
     packageId: 'pkg-2',
     packageName: 'Altos de Chavón Cultural Tour & Río Chavón Riverboat Cruise',
     destination: 'Altos de Chavón & Río Chavón',
-    image: '/src/assets/images/altos_de_chavon_village_1793268343997.jpg',
+    image: '/assets/images/altos_de_chavon_village_1793268343997.jpg',
     travelDate: '2026-09-18',
     guestsCount: 2,
     totalAmount: 190,

@@ -150,7 +150,7 @@ export const HomeScreen: React.FC = () => {
         subtitle: 'Sail turquoise lagoons, starfish sandbars & enjoy open aged rum bar.',
         priceBadge: 'From $135 USD / person',
         ctaText: 'Book Catamaran',
-        image: '/src/assets/images/hero_isla_saona_caribbean_1793268342016.jpg',
+        image: '/assets/images/hero_isla_saona_caribbean_1793268342016.jpg',
         action: () => navigate({ name: 'package_detail', id: 'pkg-1' }),
         badgeColor: 'bg-teal-600 text-white',
         accentColor: 'text-teal-600'
@@ -162,7 +162,7 @@ export const HomeScreen: React.FC = () => {
         subtitle: '16th-century Mediterranean stone artistry, amphitheater & paddleboat.',
         priceBadge: 'From $95 USD / person',
         ctaText: 'Explore Chavón',
-        image: '/src/assets/images/altos_de_chavon_village_1793268343997.jpg',
+        image: '/assets/images/altos_de_chavon_village_1793268343997.jpg',
         action: () => navigate({ name: 'package_detail', id: 'pkg-2' }),
         badgeColor: 'bg-indigo-600 text-white',
         accentColor: 'text-indigo-600'
@@ -200,7 +200,7 @@ export const HomeScreen: React.FC = () => {
         subtitle: 'Freehold Caribbean property, private yacht docks & Pete Dye greens.',
         priceBadge: 'From $1,850,000 USD',
         ctaText: 'View Residences',
-        image: '/src/assets/images/casa_de_campo_villa_caribbean_1793268344505.jpg',
+        image: '/assets/images/casa_de_campo_villa_caribbean_1793268344505.jpg',
         action: () => navigate({ name: 'property_detail', id: 'prop-1' }),
         badgeColor: 'bg-amber-600 text-white',
         accentColor: 'text-amber-700'
@@ -212,7 +212,7 @@ export const HomeScreen: React.FC = () => {
         subtitle: 'Turnkey luxury penthouse with stone balcony overlooking Dye Fore golf.',
         priceBadge: '$500,000 USD (₹ 50 Lacs eq.)',
         ctaText: 'Contact Realtor',
-        image: '/src/assets/images/altos_de_chavon_village_1793268343997.jpg',
+        image: '/assets/images/altos_de_chavon_village_1793268343997.jpg',
         action: () => navigate({ name: 'property_detail', id: 'prop-2' }),
         badgeColor: 'bg-rose-600 text-white',
         accentColor: 'text-rose-700'
@@ -238,7 +238,7 @@ export const HomeScreen: React.FC = () => {
         subtitle: 'Certified volcanic pectolite gems from Barahona & aged torpedoes.',
         priceBadge: 'Up to 20% OFF · Free Courier $150+',
         ctaText: 'Shop Artisans',
-        image: '/src/assets/images/dominican_larimar_cigar_craft_1793268344267.jpg',
+        image: '/assets/images/dominican_larimar_cigar_craft_1793268344267.jpg',
         action: () => navigate({ name: 'explore', initialCategory: 'shop' }),
         badgeColor: 'bg-rose-600 text-white',
         accentColor: 'text-rose-600'
@@ -1388,7 +1388,7 @@ export const HomeScreen: React.FC = () => {
             <div className="p-5 overflow-y-auto space-y-4 text-xs text-slate-600">
               <div className="relative aspect-[16/9] rounded-2xl overflow-hidden bg-slate-100">
                 <ImageWithFallback
-                  src="/src/assets/images/casa_de_campo_villa_caribbean_1793268344505.jpg"
+                  src="/assets/images/casa_de_campo_villa_caribbean_1793268344505.jpg"
                   alt="Casa de Campo Luxury Grounds"
                   className="w-full h-full object-cover"
                 />
